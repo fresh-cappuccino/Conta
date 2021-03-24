@@ -1,0 +1,61 @@
+*.class
+.DS_Store
+*/.DS_Store
+target
+target/*
+target/classes/
+target/classes/*
+/target/classes/
+/target/classes/*
+src/main/java/br/com/unimed/
+src/main/java/com/bea/
+src/main/java/com/targetnamespace/
+src/main/java/META-INF/
+src/main/java/org/
+src/test/
+src/main/java/generated
+*.hsp
+*.sonarj
+*.sw*
+.DS_Store
+.settings
+.springBeans
+bin
+build.sh
+integration-repo
+ivy-cache
+jxl.log
+jmx.log
+derby.log
+spring-test/test-output/
+.gradle
+argfile*
+activemq-data/
+classes/
+/build
+buildSrc/build
+/spring-*/build
+/spring-core/kotlin-coroutines/build
+/framework-bom/build
+/integration-tests/build
+/src/asciidoc/build
+target/
+# Eclipse artifacts, including WTP generated manifests
+.classpath
+.project
+spring-*/src/main/java/META-INF/MANIFEST.MF
+# IDEA artifacts and output dirs
+#*.iml
+*.ipr
+*.iws
+*.idea
+out
+test-output
+atlassian-ide-plugin.xml
+.gradletasknamecache
+<<<<<<< HEAD
+=======
+# Ignore .idea files
+.idea/
+logs/
+>>>>>>> master
